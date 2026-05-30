@@ -3,10 +3,6 @@
     .version = "6.0.0",
     .fingerprint = 0xc4cfa8c610114f28,
     .dependencies = .{
-        .raylib = .{
-            .url = "git+https://github.com/raysan5/raylib#6.0",
-            .hash = "raylib-6.0.0-whq8uCSwLgWWeF3ec3dbG6Rr36SLFL-s2WJ1Q_2E22Bb",
-        },
         .raygui = .{
             .url = "git+https://github.com/raysan5/raygui#3b2855842ab578a034f827c38cf8f62c042fc983",
             .hash = "N-V-__8AAHvybwBw1kyBGn0BW_s1RqIpycNjLf_XbE-fpLUF",
@@ -18,6 +14,10 @@
         .zemscripten = .{
             .url = "git+https://github.com/deparr/zemscripten#32d8debdcefcc89f57e658885ace5de66b03e411",
             .hash = "zemscripten-0.2.0-dev-sRlDqAtRAAByW-o9wq-1T8-ElIWWl3FjtF14xvwc9lkV",
+        },
+        .raylib = .{
+            .url = "git+https://github.com/deparr/raylib#92eefc74d6aaf8d3a4c99c6cd1603759a59bb9ae",
+            .hash = "raylib-6.0.0-whq8uAiZLwUqBzqHHLn1tBzcYYomkBUw7mHqzDNDo_pD",
         },
     },
     .minimum_zig_version = "0.16.0",
